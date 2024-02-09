@@ -1,0 +1,88 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #ff9966;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+
+nav ul {
+    list-style: none; /* Elimina las viñetas de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    text-align: center; /*Centro barra de nav*/
+
+}
+
+nav ul li {
+    display: inline-block; /* Alinea horizontalmente los elementos de la lista */
+    margin-right: 10px; /* Añade un espacio entre los elementos de la lista */
+}
+nav ul li a {
+    text-decoration: none; /* Elimina la subrayado predeterminado */
+    color: #333; /* Color de los enlaces no visitados */
+}
+
+nav ul li a:hover {
+    color: #db3636; /* Color de los enlaces al pasar el cursor sobre ellos */
+}
+
+nav ul li a:visited {
+    color: #666; /* Color de los enlaces visitados */
+}
+
+
+.main-content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.info-item {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+body {
+    cursor: url('cursor/normal.cur'), auto;
+}

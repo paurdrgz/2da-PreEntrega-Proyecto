@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff9966;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none; /* Elimina las viñetas de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    text-align: center; /*Centro barra de nav*/
+
+}
+
+nav ul li {
+    display: inline-block; /* Alinea horizontalmente los elementos de la lista */
+    margin-right: 10px; /* Añade un espacio entre los elementos de la lista */
+}
+nav ul li a {
+    text-decoration: none; /* Elimina la subrayado predeterminado */
+    color: #333; /* Color de los enlaces no visitados */
+}
+
+nav ul li a:hover {
+    color: #db3636; /* Color de los enlaces al pasar el cursor sobre ellos */
+}
+
+nav ul li a:visited {
+    color: #666; /* Color de los enlaces visitados */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li:not(:last-child):after {
+    content: " | ";
+}
+
+body {
+    cursor: url('cursor/normal.cur'), auto;
+}
+
+/* Todos los enlaces */
+a {
+    color: #337ab7; /* Color por defecto */
+    text-decoration: none; /* Quita el subrayado por defecto */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+/* Estilo al pasar el cursor sobre el enlace */
+a:hover {
+    color: #23527c; /* Color al pasar el cursor sobre el enlace */
+}
+
+/* Estilo después de ser clickeado */
+a:active {
+    color: #1e3e5a; /* Color después de ser clickeado */
+}
